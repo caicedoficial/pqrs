@@ -1,0 +1,182 @@
+/* Custom PQRS System Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.badge {
+    font-size: 0.75em;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 0.375rem;
+}
+
+.form-control, .form-select {
+    border-radius: 0.375rem;
+}
+
+/* Status badges */
+.badge-warning {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.badge-info {
+    background-color: #0dcaf0;
+    color: #000;
+}
+
+.badge-success {
+    background-color: #198754;
+    color: #fff;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.badge-light {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #dee2e6;
+}
+
+.badge-primary {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Dashboard stats cards */
+.stats-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.stats-card h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.stats-card p {
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+
+/* PQRS cards */
+.pqrs-card {
+    transition: transform 0.2s;
+}
+
+.pqrs-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Priority indicators */
+.priority-urgent {
+    border-left: 4px solid #dc3545;
+}
+
+.priority-high {
+    border-left: 4px solid #fd7e14;
+}
+
+.priority-medium {
+    border-left: 4px solid #0d6efd;
+}
+
+.priority-low {
+    border-left: 4px solid #6c757d;
+}
+
+/* Overdue indicator */
+.overdue {
+    background-color: #fff5f5;
+    border-color: #fed7d7;
+}
+
+/* Form styling */
+.form-floating > label {
+    padding: 1rem 0.75rem;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+    padding: 1rem 0.75rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    
+    .stats-card h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Flash messages */
+.alert {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
